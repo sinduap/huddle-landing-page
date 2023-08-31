@@ -1,0 +1,19 @@
+{
+  "name": "huddle-landing-page-with-curved-sections-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "Sindu Andita Pratama",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.66.1",
+    "vite": "^4.4.9"
+  }
+}
