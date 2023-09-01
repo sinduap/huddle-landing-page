@@ -1,0 +1,152 @@
+//====================//
+//====== HEADER ======//
+//====================//
+
+.header {
+  padding: 6.2rem 0;
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  &__logo {
+    height: 3.6rem;
+  }
+}
+
+//===================//
+//====== HERO =======//
+//===================//
+
+.hero {
+  padding: 6.2rem 0;
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 6.2rem;
+  }
+
+  &__illustration {
+    width: 100%;
+  }
+}
+
+//===================//
+//====== STATS ======//
+//===================//
+
+.stats {
+  padding: 6.4rem 0;
+  display: flex;
+  justify-content: space-evenly;
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__icon {
+    height: 3rem;
+  }
+
+  &__data {
+    font-size: 7.4rem;
+    letter-spacing: -2px;
+    font-weight: var(--fw-body-heavy);
+  }
+  &__label {
+    color: var(--col-neutral-dark);
+    opacity: 0.5;
+    align-self: center;
+    font-size: 2rem;
+  }
+}
+
+//====================//
+//===== FEATURES =====//
+//====================//
+
+.features {
+  padding-bottom: 6.4rem;
+
+  &__feature {
+    padding: 12.8rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 6.4rem;
+    width: 114rem;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  &__wavy-container {
+    position: relative;
+
+    &:nth-child(odd) {
+      padding: 6.4rem 0;
+      background-color: var(--col-neutral-light);
+    }
+  }
+
+  &__illustration {
+    width: 100%;
+  }
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+// 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+//===================//
+//===== BUTTONS =====//
+//===================//
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+
+  &--cta {
+    transition: all 0.3s;
+    border-radius: 100px;
+    padding: 1.8rem 8.6rem;
+    color: var(--col-neutral-light);
+    background-color: var(--col-primary);
+    font-size: 1.8rem;
+
+    &:link,
+    &:visited {
+      box-shadow: var(--shadow);
+    }
+
+    &:hover {
+      box-shadow: var(--shadow-2);
+      transform: translateY(-3px);
+    }
+
+    &:active {
+      box-shadow: var(--shadow-3);
+      transform: translateY(-1px);
+    }
+  }
+
+  &--nav:link,
+  &--nav:visited {
+    padding: 1rem 3.6rem;
+    border-radius: 100px;
+    color: var(--col-primary);
+    background-color: transparent;
+    border: 1px solid var(--col-primary);
+    font-size: 1.6rem;
+  }
+}

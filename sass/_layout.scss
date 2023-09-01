@@ -1,3 +1,9 @@
 .container {
-  width: 114.4rem;
+  width: 114rem;
+  max-width: 90%;
+  margin: 0 auto;
+
+  &--hero {
+    width: 93rem;
+  }
 }

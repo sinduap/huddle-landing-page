@@ -28,22 +28,184 @@
     </style>
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
         <nav>
-          <ul>
-            <li><img src="images/logo.svg" alt="Huddle Logo Company" /></li>
-            <li><a href="#">Try it free</a></li>
+          <ul class="header__nav">
+            <li>
+              <img
+                class="header__logo"
+                src="images/logo.svg"
+                alt="Huddle Logo Company"
+              />
+            </li>
+            <li><a class="btn btn--nav" href="#">Try it free</a></li>
           </ul>
         </nav>
-        <section></section>
       </div>
     </header>
+
+    <section class="hero">
+      <div class="container container--hero">
+        <div class="hero__box">
+          <h1 class="heading-primary mb-md">
+            Build The Community Your Fans Will Love
+          </h1>
+          <p class="subheading mb-lg">
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+          <a href="#" class="btn btn--cta">Get Started For Free</a>
+        </div>
+
+        <img
+          class="hero__illustration"
+          src="images/screen-mockups.svg"
+          alt="Huddle application mockup"
+        />
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="stats__box">
+        <img
+          src="images/icon-communities.svg"
+          alt="Icon comunities"
+          class="stats__icon"
+        />
+        <p class="stats__data">1.4k+</p>
+        <p class="stats__label">Communities Formed</p>
+      </div>
+      <div class="stats__box">
+        <img
+          src="images/icon-messages.svg"
+          alt="Icon comunities"
+          class="stats__icon"
+        />
+        <p class="stats__data">2.7m+</p>
+        <p class="stats__label">Messages Sent</p>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="features__wavy-container">
+        <div class="custom-shape-divider-top-1693556162">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+        <div class="features__feature">
+          <div class="features__box">
+            <h2 class="heading-secondary">Grow Together</h2>
+            <p class="features__description">
+              Generate meaningful discussions with your audience and build a
+              strong, loyal community. Think of the insightful conversations you
+              miss out on with a feedback form.
+            </p>
+          </div>
+          <div class="features__box">
+            <img
+              class="features__illustration"
+              src="images/illustration-grow-together.svg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="custom-shape-divider-bottom-1693557003">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+      </div>
+
+      <div class="features__wavy-container">
+        <div class="features__feature">
+          <div class="features__box">
+            <img
+              class="features__illustration"
+              src="images/illustration-flowing-conversation.svg"
+              alt=""
+            />
+          </div>
+          <div class="features__box">
+            <h2 class="heading-secondary">Flowing Conversations</h2>
+            <p class="features__description">
+              You wouldn't paginate a conversation in real life, so why do it
+              online? Our threads have just-in-time loading for a more natural
+              flow.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="features__wavy-container">
+        <div class="custom-shape-divider-top-1693557448">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+        <div class="features__feature">
+          <div class="features__box">
+            <h2 class="heading-secondary">Your Users</h2>
+            <p class="features__description">
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately.
+            </p>
+          </div>
+          <div class="features__box">
+            <img
+              class="features__illustration"
+              src="images/illustration-your-users.svg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="custom-shape-divider-bottom-1693558145">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </section>
     <!-- prettier-ignore -->
     Try it free
-
-  Build The Community Your Fans Will Love
-
+    
+    Build The Community Your Fans Will Love
+    
   Huddle re-imagines the way we build communities. You have a voice, but so does 
   your audience. Create connections with your users as you engage in genuine discussion. 
 

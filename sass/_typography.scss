@@ -10,3 +10,20 @@
   --fw-body-normal: 600;
   --fw-body-light: 400;
 }
+
+.heading-primary {
+  font-family: var(--ff-headings);
+  font-size: 4.4rem;
+  font-weight: var(--fw-headings);
+}
+
+.heading-secondary {
+  font-family: var(--ff-headings);
+  font-size: 3rem;
+  font-weight: var(--fw-headings);
+}
+
+.subheading {
+  font-size: 1.8rem;
+  max-width: 55ch;
+}
