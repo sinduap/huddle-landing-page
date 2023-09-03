@@ -12,6 +12,8 @@
       href="./images/favicon-32x32.png"
     />
 
+    <link href="https://unpkg.com/css.gg/icons/icons.css" rel="stylesheet" />
+
     <title>Frontend Mentor | Huddle landing page with curved sections</title>
 
     <link rel="stylesheet" href="sass/styles.scss" />
@@ -39,7 +41,7 @@
                 alt="Huddle Logo Company"
               />
             </li>
-            <li><a class="btn btn--nav" href="#">Try it free</a></li>
+            <li><a class="btn btn--nav" href="#cta">Try it free</a></li>
           </ul>
         </nav>
       </div>
@@ -56,7 +58,7 @@
             but so does your audience. Create connections with your users as you
             engage in genuine discussion.
           </p>
-          <a href="#" class="btn btn--cta">Get Started For Free</a>
+          <a class="btn btn--cta" href="#cta">Get Started For Free</a>
         </div>
 
         <img
@@ -201,55 +203,88 @@
         </div>
       </div>
     </section>
-    <!-- prettier-ignore -->
-    Try it free
-    
-    Build The Community Your Fans Will Love
-    
-  Huddle re-imagines the way we build communities. You have a voice, but so does 
-  your audience. Create connections with your users as you engage in genuine discussion. 
 
-  Get Started For Free
+    <section class="cta" id="cta">
+      <h2 class="heading-secondary mb-lg">Ready To Build Your Community?</h2>
+      <a class="btn btn--cta" href="#cta">Get Started For Free</a>
+    </section>
 
-  1.4k+
-  Communities Formed
+    <footer class="footer">
+      <div class="custom-shape-divider-top-1693648716">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <div class="container">
+        <section class="about">
+          <img
+            class="about__logo"
+            src="images/logo-footer.svg"
+            alt="Huddle logo"
+          />
+          <p class="about__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+            nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+          </p>
+          <a class="about__phone" href="tel:+1-543-123-4567">
+            <i class="gg-phone"></i> +1-543-123-4567</a
+          >
+          <a class="about__email" href="mailto:example@huddle.com">
+            <i class="gg-mail"></i> example@huddle.com</a
+          >
+          <nav>
+            <ul class="about__socials">
+              <li>
+                <a href="#">
+                  <i class="gg-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="gg-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="gg-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </section>
 
-  2.7m+
-  Messages Sent
-
-  Grow Together
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
-
-  Flowing Conversations
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
-  just-in-time loading for a more natural flow.
-
-  Your Users
-  It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
-  once signed in to your app, your users can start chatting immediately.
-
-  Ready To Build Your Community?
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
-  vestibulum a, ultrices quis sem.
-  
-  Phone: +1-543-123-4567
-  example@huddle.com
-
-  Newsletter
-  To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
-  send you spam or pass on your email address
-
-  Subscribe
-
-    <footer>
+        <form class="newsletter">
+          <h3 class="heading-tertiary">Newsletter</h3>
+          <p class="newsletter__text">
+            To recieve tips on how to grow your community, sign up to our weekly
+            newsletter. We'll never send you spam or pass on your email address
+          </p>
+          <div class="newsletter__form-box">
+            <input
+              class="newsletter__email"
+              type="email"
+              name="email"
+              id="email"
+              required
+            />
+            <button class="btn">Subcribe</button>
+          </div>
+        </form>
+      </div>
       <p class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by
+        <a href="https://www.github.com/sinduap">Sindu Andita Pratama</a>.
       </p>
     </footer>
   </body>

@@ -9,3 +9,20 @@
 body {
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+}

@@ -23,6 +23,14 @@
   font-weight: var(--fw-headings);
 }
 
+.heading-tertiary {
+  font-family: var(--ff-body);
+  font-size: 2.4rem;
+  font-weight: var(--fw-body-normal);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 .subheading {
   font-size: 1.8rem;
   max-width: 55ch;
